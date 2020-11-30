@@ -1,17 +1,10 @@
-.logo-bar{
-    width: 23%;
-    height: 17%;
-    
-  }
-  @media screen and (max-width: 380px){
-    .navbar-logo img{
-        width: 15%;
-        height: 13%;
-        position: relative;
-        top: 0;
-        display: inline-flex;
-        
-        
-      
-      }
-  }
+.coloring{
+  background-color: #9CCC5A;
+  border-bottom: 1px solid #8C8987;
+
+}
+.fontsize{
+  font-size: 25px;
+  padding-left: 10px;
+}
+

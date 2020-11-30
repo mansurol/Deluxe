@@ -6,7 +6,8 @@ import ImgThree from '../img/pic3.jpg';
 import './Sliderone.css'
 const Sliderone = () => {
     return (
-        <div className="carousel-inner">
+      <section>
+        <div className="carousel-inner ">
         <Carousel >
         <Carousel.Item interval={1000}>
           <img
@@ -16,7 +17,7 @@ const Sliderone = () => {
           />
 
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
             src={ImgTwo}
@@ -34,6 +35,7 @@ const Sliderone = () => {
         </Carousel.Item>
       </Carousel>
       </div>  
+      </section>
     );
 };
 
