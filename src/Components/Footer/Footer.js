@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="col-md-4 mansur company-address">
 
               <h4>About Us</h4>
-               <p> Who we are? </p>  
+             <p> Who we are? </p> 
               <p>Ours mission customer</p>
 
             </div>
