@@ -1,13 +1,15 @@
 import React from 'react';
-import Sliderone from '../SliderOne/Sliderone'
-import Testing from '../testing/testing'
+import Sliderone from '../SliderOne/Sliderone';
+import Slidertwo from '../Slidertwo/Slidertwo';
+import ECatalogues from '../Ecatalogues/Ecatalogues'
 
 const Home = () => {
     return (
         <div>
             
             <Sliderone />
-            <Testing />
+            <Slidertwo />
+            <ECatalogues/>
             
 
         </div>

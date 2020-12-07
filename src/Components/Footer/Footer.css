@@ -1,0 +1,68 @@
+.footer-bg{
+    background-color: #686868;
+    
+}
+.Img-sizing{
+    width: 35%;
+    height: 47px;
+}
+.company-address p{
+    color: #FFEFFA;
+    line-height: 10px;
+}
+.company-address h4{
+    color: #FFEFFA;
+}
+
+
+  a.social {
+    margin:0 0.5rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color:blue;
+  }
+  
+  a.twitter {
+    color: #fff;
+  }
+  
+  a.instagram {
+    color: black;
+  }
+hr{
+  width:80%;
+  
+}
+.copyright{
+ text-align: center;
+
+}
+.copyright-bg{
+  background-color:#203240;
+}
+.main{
+  display: flex;
+}
+
+
+@media only screen and (max-width:480px){
+  .main{
+    display: inline;
+    text-align: center;
+    
+  }
+  .mansur{
+    padding-bottom: 20px;
+  }
+ 
+}

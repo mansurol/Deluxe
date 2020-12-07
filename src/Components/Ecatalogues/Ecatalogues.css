@@ -1,0 +1,23 @@
+.thirdsection{
+    background-color:#C2DC7D;
+    line-height: 2rem;
+}
+.designviewall{
+    background-color: grey;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none!important;
+    color: black;
+}
+.catalogue {
+   
+    color:black;
+}
+
+
+@media only screen and (max-width:480px){
+    .catalogue {
+        font-size: 14px;
+        color:black;
+    }
+}

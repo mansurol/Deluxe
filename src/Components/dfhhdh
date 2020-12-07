@@ -88,3 +88,32 @@ export default class Slidertwo extends Component {
     );
   }
 }
+
+
+
+   <div>
+                    <div className="mt-5 thirdsection">
+        <div className="container p-5">
+            <div className="text-center">
+            <h2 >E-Catalogues</h2>
+            <p>TO GET DETAIL PRODUCT AND ESSENTIAL COMPANY INFORMATION</p>
+            <Link  to="/Catalogues" className="designviewall">View All</Link>
+            </div>
+        </div>
+        </div> 
+            
+        </div>
+
+
+
+
+        .thirdsection{
+    background-color:#C2DC7D;
+}
+.designviewall{
+    background-color: grey;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}

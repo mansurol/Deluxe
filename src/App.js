@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Nav from './Components/nav';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Product from './Components/Product/Product';
 import Contact from './Components/Contact/Contact';
 import Error from './Components/Error/Error';
-import Slidertwo from './Components/Slidertwo/Slidertwo';
+import Catalogues from './Components/Catalogues/Catalogues'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           <Route path="/contact">
             <Contact/>
           </Route>
+          <Route path="/Catalogues">
+            <Catalogues/>
+          </Route>
           <Route exact path="/">
           <Home />
           </Route>
@@ -38,6 +42,7 @@ function App() {
         </Switch>
       
     </Router>
+    <Footer/>
     
     </div>
   );

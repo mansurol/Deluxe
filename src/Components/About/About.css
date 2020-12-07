@@ -1,0 +1,11 @@
+.aboutsec p{
+    color: black;
+    width: 450px;
+    line-height: 18px;
+}
+@media only screen and (max-width:480px){
+   .aboutsec p{
+    width: 300px;
+   }
+   
+}
