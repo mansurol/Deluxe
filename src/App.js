@@ -7,9 +7,8 @@ import About from './Components/About/About';
 import Product from './Components/Product/Product';
 import Contact from './Components/Contact/Contact';
 import Error from './Components/Error/Error';
-import Catalogues from './Components/Catalogues/Catalogues'
+import Catalogues from './Components/Catalogues/Catalogues';
 import Footer from './Components/Footer/Footer'
-
 function App() {
   return (
     <div >
@@ -40,9 +39,9 @@ function App() {
           </Route>
           
         </Switch>
-      
+        <Footer/>
     </Router>
-    <Footer/>
+    
     
     </div>
   );

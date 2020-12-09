@@ -19,21 +19,23 @@ const Footer = () => {
             <div className="col-md-4 mansur">
                 <img className="Img-sizing"src={Img} alt=""/>
                 <div className="company-address">
-                <p>Deluxe lighting solution</p>
-                <p>shayamoli,dhaka-1000</p>
-                <p>deluxeled@gmail.com</p>
-                <p>+880186247389</p>
+                <p>DELUXE LIGHTING SOLUTION</p>
+                <p>347, Kazipara, Kafrul, Dhaka-1216</p>
+                <p>Help:+880186247389</p>
+                <p>info@deluxe-bd.com</p>
+                <p>www.deluxe-bd.com</p>
                 </div>
             </div>
             <div className="col-md-4 mansur company-address">
 
               <h4>About Us</h4>
-             <p> Who we are? </p> 
-              <p>Ours mission customer</p>
+             <p> <Link className="linkstyle" to="/about"> Who we are?</Link></p>
+              <p><Link className="linkstyle" to="/about">Ours mission </Link></p>
+              <p><Link className="linkstyle" to="/about">Customer Service</Link></p>
 
             </div>
             <div className="col-md-4 ">
-                <h4 className="pl-2">Follow Us</h4>
+                <h4 className="pl-2 follow">Follow Us</h4>
             <a href="https://www.youtube.com/c/jamesqquick"
   className="youtube social">
   <FontAwesomeIcon icon={faYoutube} size="2x" />
@@ -54,7 +56,7 @@ const Footer = () => {
         <div className="copyright-bg">
         <hr/>
         <div className="container copyright pb-3">
-          <small className="text-white  ">© 2020 Copyright: DeluxeLED.com</small>
+          <small className="text-white  ">© 2020 Copyright: deluxe-bd.com</small>
         </div>
         </div>
         </div>

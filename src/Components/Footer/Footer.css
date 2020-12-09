@@ -53,6 +53,23 @@ hr{
 .main{
   display: flex;
 }
+.linkstyle{
+  color: #fff;
+  text-decoration: none!important;
+
+
+
+}
+.linkstyle:hover{
+  color: #1E1E1E;
+  
+  
+
+
+}
+.follow{
+  color: #fff;
+}
 
 
 @media only screen and (max-width:480px){

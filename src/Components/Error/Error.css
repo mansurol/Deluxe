@@ -1,0 +1,46 @@
+.errorsetup {
+    padding:110px;
+
+}
+.errorsetup h1{
+   font-size: 60px;
+}
+.errorsetup p{
+    font-size: 30px;
+ }
+ .gohome{
+     font-size: 29px;
+ }
+ 
+
+ @media only screen and (max-width:768px){
+    .errorsetup {
+        padding-top:230px;
+        padding-bottom: 230px;
+    }
+    .errorsetup h1{
+       font-size:60px;
+    }
+    .errorsetup p{
+        font-size: 30px;
+     }
+     .gohome{
+         font-size: 35px;
+     }
+ }
+
+ @media only screen and (max-width:480px){
+    .errorsetup {
+        padding:30px;
+    
+    }
+    .errorsetup h1{
+        font-size: 30px;
+     }
+     .errorsetup p{
+         font-size: 20px;
+      }
+      .gohome{
+          font-size: 20px;
+      }
+ }

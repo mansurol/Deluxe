@@ -10,6 +10,8 @@ const Home = () => {
             <Sliderone />
             <Slidertwo />
             <ECatalogues/>
+
+            
             
 
         </div>
